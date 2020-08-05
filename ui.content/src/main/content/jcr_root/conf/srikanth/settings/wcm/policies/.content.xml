@@ -2,7 +2,6 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
     jcr:mixinTypes="[rep:AccessControllable]"
     jcr:primaryType="cq:Page">
-    <rep:policy/>
     <wcm jcr:primaryType="nt:unstructured">
         <foundation jcr:primaryType="nt:unstructured">
             <components jcr:primaryType="nt:unstructured">
@@ -29,6 +28,16 @@
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
+                    <policy_1596631101604
+                        jcr:description="Allowed  the below components for base page.  &#xd;&#xa;In General - Layout container, &#xd;&#xa;In Srikanth - Header, Footer, &#xd;&#xa;In Srikanth Form - Form Container"
+                        jcr:lastModified="{Date}2020-08-05T18:14:34.689+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Srikanth Base Page - Root Container - Allowed Components"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/srikanth/components/content/footer,/apps/srikanth/components/content/header,/apps/srikanth/components/form/container]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_1596631101604>
                 </responsivegrid>
             </components>
         </foundation>
@@ -48,4 +57,5 @@
             </form>
         </components>
     </srikanth>
+    <rep:policy/>
 </jcr:root>
