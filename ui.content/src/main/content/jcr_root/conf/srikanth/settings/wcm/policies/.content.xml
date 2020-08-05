@@ -53,6 +53,16 @@
                         components="[/apps/srikanth/components/form/button,/apps/srikanth/components/form/hidden,/apps/srikanth/components/form/options,/apps/srikanth/components/form/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </form-container>
+                    <policy_97212761993338
+                        jcr:description="Allowed  the below components for base page non root layout container.&#xd;&#xa;Srikanth group,&#xd;&#xa;In Srikanth Form - Form Container"
+                        jcr:lastModified="{Date}2020-08-05T23:59:58.382+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Srikanth Base Page - Non Root Container - Allowed Components"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[group:srikanth,/apps/srikanth/components/form/container]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                    </policy_97212761993338>
                 </container>
             </form>
         </components>

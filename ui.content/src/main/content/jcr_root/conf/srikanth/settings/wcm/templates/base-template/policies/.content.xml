@@ -9,6 +9,11 @@
         <root
             cq:policy="wcm/foundation/components/responsivegrid/policy_1596631101604"
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/core/components/policies/mapping"/>
+            sling:resourceType="wcm/core/components/policies/mapping">
+            <container
+                cq:policy="srikanth/components/form/container/policy_97212761993338"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/core/components/policies/mapping"/>
+        </root>
     </jcr:content>
 </jcr:root>
