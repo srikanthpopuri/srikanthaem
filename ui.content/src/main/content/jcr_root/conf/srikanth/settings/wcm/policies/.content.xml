@@ -28,7 +28,7 @@
                             jcr:primaryType="nt:unstructured"
                             mergeList="{Boolean}true"/>
                     </content-default>
-                    <policy_1596631101604
+                    <policy_1_base_rootlayoutcontainer
                         jcr:description="Allowed  the below components for base page.  &#xd;&#xa;In General - Layout container, &#xd;&#xa;In Srikanth - Header, Footer, &#xd;&#xa;In Srikanth Form - Form Container"
                         jcr:lastModified="{Date}2020-08-05T18:14:34.689+05:30"
                         jcr:lastModifiedBy="admin"
@@ -37,7 +37,7 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[/libs/wcm/foundation/components/responsivegrid,/apps/srikanth/components/content/footer,/apps/srikanth/components/content/header,/apps/srikanth/components/form/container]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </policy_1596631101604>
+                    </policy_1_base_rootlayoutcontainer>
                 </responsivegrid>
             </components>
         </foundation>
@@ -53,7 +53,7 @@
                         components="[/apps/srikanth/components/form/button,/apps/srikanth/components/form/hidden,/apps/srikanth/components/form/options,/apps/srikanth/components/form/text]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </form-container>
-                    <policy_97212761993338
+                    <policy_2_base_nonrootlayoutcontainer
                         jcr:description="Allowed  the below components for base page non root layout container.&#xd;&#xa;Srikanth group,&#xd;&#xa;In Srikanth Form - Form Container"
                         jcr:lastModified="{Date}2020-08-05T23:59:58.382+05:30"
                         jcr:lastModifiedBy="admin"
@@ -62,7 +62,7 @@
                         sling:resourceType="wcm/core/components/policy/policy"
                         components="[group:srikanth,/apps/srikanth/components/form/container]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
-                    </policy_97212761993338>
+                    </policy_2_base_nonrootlayoutcontainer>
                 </container>
             </form>
         </components>
