@@ -25,8 +25,7 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="srikanth/components/form/container"
-                action="/content/usergenerated/conf/srikanth/settings/wcm/templates/base-template/structure/cq-gen1596631568373/"
-                actionType="foundation/components/form/actions/store"/>
+                editable="{Boolean}true"/>
             <footer
                 jcr:created="{Date}2020-08-05T18:16:15.514+05:30"
                 jcr:createdBy="admin"
