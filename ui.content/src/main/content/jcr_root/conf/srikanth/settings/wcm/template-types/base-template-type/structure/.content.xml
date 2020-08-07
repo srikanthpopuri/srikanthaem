@@ -7,7 +7,30 @@
         sling:resourceType="srikanth/components/structure/page">
         <root
             jcr:primaryType="nt:unstructured"
-            sling:resourceType="wcm/foundation/components/responsivegrid"/>
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <header
+                jcr:created="{Date}2020-08-05T18:14:51.405+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-08-05T18:17:07.737+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="srikanth/components/content/header"/>
+            <container
+                jcr:created="{Date}2020-08-05T18:16:08.358+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-08-05T18:16:08.358+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="srikanth/components/form/container"
+                editable="{Boolean}true"/>
+            <footer
+                jcr:created="{Date}2020-08-05T18:16:15.514+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2020-08-05T18:16:15.514+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="srikanth/components/content/footer"/>
+        </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">
                 <phone
